@@ -1,0 +1,27 @@
+#sidebar {
+    background: #f3f3f3;
+}
+
+@-webkit-keyframes loading-anim {
+  0%   { width: 0%; }
+  100% { width: 100%; }
+}
+@-moz-keyframes loading-anim {
+  0%   { width: 0%; }
+  100% { width: 100%; }
+}
+@-o-keyframes loading-anim {
+  0%   { width: 0%; }
+  100% { width: 100%; }
+}
+@keyframes loading-anim {
+  0%   { width: 0%; }
+  100% { width: 100%; }
+}
+
+#loadingbar {
+  -webkit-animation: loading-anim 5s infinite; /* Safari 4+ */
+  -moz-animation:    loading-anim 5s infinite; /* Fx 5+ */
+  -o-animation:      loading-anim 5s infinite; /* Opera 12+ */
+  animation:         loading-anim 5s infinite; /* IE 10+ */
+}
